@@ -3,11 +3,12 @@ import { Text, StyleSheet, View, Button } from "react-native";
 import { FlatList } from "react-native-gesture-handler";
 
 const secondSemCourse = () => {
+  let $ = ")";
   const course = [
-    { name: "CSE 4301" },
-    { name: "SWE 4301" },
-    { name: "CSE 4301" },
-    { name: "SWE 4301" },
+    { name: "CSE 4211" ,key: "1"},
+    { name: "HUM 4201" ,key: "2"},
+    { name: "CSE 4209" ,key: "3"},
+    { name: "SWE 4221" ,key: "4"},
   ];
 
   return (
@@ -15,7 +16,7 @@ const secondSemCourse = () => {
       <FlatList
         data={course}
         renderItem={function ({ item }) {
-          return <Text style={styles.textStyle}>{item.name}</Text>;
+        return <Text style={styles.textStyle}>{item.key}{$} {item.name}</Text>;
         }}
       />
     </View>
@@ -24,13 +25,11 @@ const secondSemCourse = () => {
 
 const styles = StyleSheet.create({
   textStyle: {
-    fontSize: 25,
+    fontSize: 20,
     color: "blue",
-    textAlign: "center",
-  },
-  textStyle2: {
-    fontSize: 25,
-    color: "red",
+    marginTop: 5,
+    textAlign: "left",
+    paddingLeft: 10,
   },
 });
 

@@ -3,26 +3,27 @@ import { Text, StyleSheet, View, Button } from "react-native";
 
 const SemesterPage = (props) => {
   return (
-    <View>
+    <View style={styles.screenContainer}>
       <Button
+        color="#4677DA"
+        
         title="Semester 1"
-        color="red"
         onPress={function () {
-          props.navigation.navigate("Course1");
+          props.navigation.navigate("1st semester Courses");
         }}
       />
       <Button
         title="Semester 2"
-        color="blue"
+        color="#5221A8"
         onPress={function () {
-          props.navigation.navigate("Course2");
+          props.navigation.navigate("2nd semester Courses");
         }}
       />
       <Button
         title="Semester 3"
-        color="green"
+        color="#5656B9"
         onPress={function () {
-          props.navigation.navigate("Course3");
+          props.navigation.navigate("3rd semester Courses");
         }}
       />
     </View>
@@ -30,13 +31,10 @@ const SemesterPage = (props) => {
 };
 
 const styles = StyleSheet.create({
-  textStyle: {
-    fontSize: 25,
-    color: "blue",
-    marginTop: 5,
-
-    textAlign: "left",
-    paddingLeft: 10,
+  screenContainer: {
+    flex: 1,
+    justifyContent: "flex-start",
+    padding: 10,
   },
 });
 

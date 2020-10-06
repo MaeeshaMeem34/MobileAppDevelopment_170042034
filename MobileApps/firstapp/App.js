@@ -21,9 +21,9 @@ function App(){
         <stack.Screen name="Home" component={homeScreen} />
         <stack.Screen name="FacultyList" component={FacultyList} />
         <stack.Screen name="Semesters" component={SemesterPage} />
-        <stack.Screen name="Course1" component={firstSemCourse} />
-        <stack.Screen name="Course2" component={secondSemCourse} />
-        <stack.Screen name="Course3" component={thirdSemCourse} />
+        <stack.Screen name="1st semester Courses" component={firstSemCourse} />
+        <stack.Screen name="2nd semester Courses" component={secondSemCourse} />
+        <stack.Screen name="3rd semester Courses" component={thirdSemCourse} />
         <stack.Screen name="Profile" component={profile} />
 
 
