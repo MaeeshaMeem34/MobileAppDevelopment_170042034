@@ -8,7 +8,9 @@ const firstSemCourse = () => {
     { name: "SWE 4101" ,key: "1"},
     { name: "CSE 4205",key: "2" },
     { name: "SWE 4109" ,key: "3"},
-    { name: "SWE 4308" ,key: "4"},
+    { name: "SWE 4108" ,key: "4"},
+    { name: "EEE 4102" ,key: "5"},
+    { name: "HUM 4128" ,key: "6"},
   ];
 
   return (

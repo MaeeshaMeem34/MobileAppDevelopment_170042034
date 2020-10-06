@@ -8,7 +8,7 @@ const FacultyList = () => {
     { name: "Tasnim Ahmed", key: "1" },
     { name: "Sabbir Ahmed", key: "2" },
     { name: "Bakhtiar hasan", key: "3" },
-    { name: "mohayminul islam", key: "4" },
+    { name: "Mohayminul islam", key: "4" },
     { name: "Tajkia Toma", key: "5" },
   ];
 

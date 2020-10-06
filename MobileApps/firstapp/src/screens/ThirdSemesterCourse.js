@@ -9,6 +9,8 @@ const thirdSemCourse = () => {
     { name: "HUM 4322" , key: "2"},
     { name: "CSE 4305" , key: "3"},
     { name: "SWE 4301" , key: "4"},
+    { name: "CSE 4318" ,key: "5"},
+    { name: "SWE 4338" ,key: "6"},
   ];
 
   return (
